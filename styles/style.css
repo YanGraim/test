@@ -1,0 +1,481 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000d9;
+}
+
+
+nav {
+    color: #fff;
+}
+
+
+.first-nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 1rem;
+
+    color: #fff;
+}
+
+.second-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 3rem;
+    
+    color: #fff;
+}
+
+.second-nav img {
+    width: 2.5rem;
+    margin-right: 90px;
+}
+
+.second-nav input {
+    padding: 2px;
+    width: 200px;
+}
+
+.second-nav ul {
+    display: flex;
+    gap: 1.5rem;
+
+    cursor: pointer;
+}
+
+.third-nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 3rem;
+    cursor: pointer;
+
+    font-size: 12px;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.247), rgba(0, 0, 0, 0.553)), url("../assets/relogio-armani.jpg") no-repeat center center / cover;
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.hero-section img {
+    margin-bottom: 1rem;
+    margin-left: 250px;
+    width: 40px;
+}
+ 
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 100px;
+    color: #fff;
+}
+
+.hero-section button {
+    margin-top: 8px;
+    margin-left: 200px;
+}
+
+.btn-comprar {
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.category {
+    background-color: #fff;
+}
+
+.category h3{
+    padding-top: 3rem;
+    margin: 0 4rem;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    height: 430px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 1rem 3rem;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.category p {
+    margin: 0 3rem;
+    text-decoration: underline;
+}
+
+.button {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    cursor: pointer;
+}
+
+.marcas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+    padding: 4rem 0;
+}
+
+.marcas img {
+    width: 90px;
+}
+
+.propaganda {
+    background-color: rgb(242, 235, 235);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+}
+
+.propaganda img {
+    width: 600px;
+}
+
+.aside-propaganda img {
+    width: 40px;
+}
+
+.aside-propaganda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.infos {
+    padding: 1.5rem;
+}
+
+.infos h2 {
+    margin-bottom: 20px;
+}
+
+
+.cards {
+    display: flex;
+    gap: 1rem;
+    background-color: #fff;
+    padding: 2rem;
+}
+
+.cards h3 {
+    padding-top: 3rem;
+    margin: 0 4rem;
+}
+
+.cards .card {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.info-card {
+    padding: 0.5rem;
+}
+
+.info-card h4 {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.info-card p {
+    font-size: 14px;
+}
+
+.info-card p span {
+    margin-left: 10px;
+    text-decoration: line-through;
+}
+
+.title-white {
+    background-color: #fff;
+    padding-top: 3rem;
+    padding: 2rem 4rem;
+}
+
+.title {
+    background-color: rgb(242, 235, 235);
+    padding-top: 3rem;
+    padding: 2rem 4rem;
+}
+
+.lazy-img-fadein {
+    width: 1238px;
+}
+
+.best-sellers {
+    background-color: rgb(242, 235, 235);
+    margin-top: -4px;
+}
+
+.perfume {
+    background-color: rgb(242, 235, 235);
+}
+
+.accessories {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+    background-color: #000;
+    color: #fff;
+    padding: 6rem;
+    gap: 20px;
+}
+
+.accessories h2 {
+    font-size: 30px;
+}
+
+.card-accessories {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.card-accessories img {
+    width: 200px;
+}
+
+.description {
+    background-color: #fff;
+    text-align: center;
+    height: 300px;
+    padding: 40px;
+}
+
+.logo {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.intro-text, .description {
+    font-size: 16px;
+    color: #666;
+}
+
+.newsletter {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 60px;
+    margin-top: -10px;
+}
+
+.newsletter h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.newsletter form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.newsletter label {
+    display: block;
+    font-size: 14px;
+    margin: 10px 0 5px;
+    color: #fff;
+}
+
+.newsletter input[type="text"],
+.newsletter input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+
+}
+
+.newsletter .checkbox-container {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #fff;
+    margin: 10px 0;
+}
+
+.newsletter .checkbox-container input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #e5e5e5;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    max-width: 200px;
+    margin: 10px;
+}
+
+.footer-column h3 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.footer-column p,
+.footer-column a {
+    font-size: 14px;
+    color: #666;
+    text-decoration: none;
+}
+
+
+.bottom-footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 12px;
+    color: #666;
+    background-color: #e5e5e5;
+}
+
+/* Responsividade */
+
+@media (max-width: 768px) {
+    .first-nav ul, .second-nav, .third-nav ul {
+        display: none;
+    }
+
+    .second-nav {
+        margin: 1rem;
+    }
+
+    .hero-section {
+        height: auto;
+        padding: 1rem;
+        align-items: center;
+    }
+
+    .content {
+        margin-left: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .category h3, .cards h3 {
+        margin: 0 2rem;
+        font-size: 18px;
+    }
+
+    .propaganda {
+        display: none;
+    }
+
+    .lazy-img-fadein {
+        display: none;
+    }
+
+    .marcas {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-accessories {
+        display: grid;
+    }
+
+    .description {
+        height: 500px;
+    }
+
+    .newsletter form {
+        width: 90%;
+    }
+
+    .footer-column {
+        max-width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .second-nav input {
+        width: 150px;
+    }
+
+    .card {
+        width: 90%;
+        margin: 1rem auto;
+    }
+
+    .hero-section button, .hero-section img {
+        margin-left: 0;
+    }
+
+    .accessories {
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .card-accessories img {
+        width: 100%;
+    }
+
+    .newsletter h2 {
+        font-size: 20px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+    .footer-column h3, .footer-column p, .footer-column a {
+        font-size: 14px;
+    }
+}
